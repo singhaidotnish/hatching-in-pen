@@ -16,4 +16,6 @@
 ![new-pexels-veeterzy-38136.jpg](../../Downloads/ffmpeg-images/output/new-pexels-veeterzy-38136.jpg)
 
 
+### for i in /home/sinhurry/Downloads/ffmpeg-images/*.*; do ffmpeg -i "$i" -vf hue=s=0 /home/sinhurry/Downloads/ffmpeg-images/output/new-"$i"; done
+
 ### for i in *.*; do ffmpeg -i "$i" -vf hue=s=0 output/new-"$i"; done
